@@ -1,0 +1,151 @@
+@charset "utf-8"
+/*"CSS Document"*/
+body,div,p,ul,ol,li,dl,dd,dt,tr,td,h1,h2,h3,h4,h5,h6,img,fieldset,table,form,figure,hr{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size:26.67vw;
+}
+html,body{
+	height:100%;
+}
+body{
+	font-family:"Microsoft Yahei","微软雅黑",Arial;
+	display:-webkit-flex;
+	-webkit-flex-direction:column;
+	background:#f5f5f9;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+img{
+	display:block;
+	border:none;
+}
+/*header*/
+header{
+	width:100%;
+	background: #3f454f;
+	position:fixed;
+	top:0;
+	left:0;	
+}
+.top{
+	width:100%;
+	height:0.37rem;	
+	display: -webkit-flex;
+	-webkit-justify-content:space-between;
+	-webkit-align-items:center; 
+}
+.top a{
+	font-size: 0.14rem;
+	color:white;
+}
+.top i{
+	display:block;
+}
+.top .zd{
+	display: -webkit-flex;
+	-webkit-align-items:center;
+	padding-left:0.17rem;
+}
+.zd i{
+	margin-right: 0.1rem;
+}
+.top .right{
+	display:-webkit-flex;
+}
+.right i{
+	margin:0  0.1rem;
+}
+.bottom{
+	width:100%;
+	height:1.18rem;
+	padding-top: 0.27rem;
+	display:-webkit-flex;
+}
+.bottom a{
+	font-size: 0.12rem;
+	-webkit-flex:1;
+	color:white;
+	text-align: center;
+}
+.bottom img{
+	width:0.45rem;
+	height:0.42rem;
+	margin:0 auto  0.13rem;
+}
+.bottom span{
+	display:block;
+}
+
+/*section*/
+.content{
+	overflow: scroll;
+}
+
+
+
+section{
+	width:100%;
+	display:-webkit-flex;
+	-webkit-flex-wrap:wrap;
+	background:white;
+}
+section a{
+	width:25%;
+	border-right:1px solid #e6e6e6;
+	border-bottom:1px solid #e6e6e6;
+	box-sizing:border-box;
+	padding-bottom:0.2rem;
+}
+section img{
+	width:0.35rem;
+	height:0.32rem;
+	margin:0.2rem  auto 0.16rem;
+	background:blue;
+}
+section a span{
+	text-align: center;
+	font-size:0.12rem;
+	color:black;
+	display:block;
+}
+section a:nth-child(4n){
+	border-right:none;
+}
+/*banner*/
+.banner{
+	margin:0.17rem 0;
+}
+/*footer*/
+footer{
+	width:100%;
+	height:0.5rem;
+	display: -webkit-flex;
+	-webkit-justify-content:space-between;
+	background:white;
+	position: fixed;
+	bottom:0;
+	left:0;
+}
+footer a{
+	font-size: 0.12rem;
+	line-height: 0.5rem;
+	color:#939393;
+}
+footer i{
+	font-size:0.22rem;
+	margin:0.6rem  0.35rem  0.5rem;
+
+}
+span{
+	display:block;
+}
+footer a:hover{
+	color: #00aaee;
+}
